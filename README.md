@@ -1,4 +1,4 @@
-# simh-git-aur
-AUR build of the -current version of simh
+# bambustudio-git-aur
+AUR build of the -current version of BambuStudio
 
-This is my copy of the proposed AUR PKGBUILD for the HEAD version of simh. Nothing complex, just a simple build that works.
+This is my copy of the proposed AUR PKGBUILD for the HEAD version of BambuStudio. Nothing complex, just a simple build that works.

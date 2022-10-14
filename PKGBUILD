@@ -17,12 +17,10 @@ source=(
   'CMakeLists.txt.patch'
   'bambu-studio.sh'
   )
-sha512sums=(
-  'SKIP'
-  'SKIP'
-  'SKIP'
-  'SKIP'
-  )
+sha512sums=('SKIP'
+            '419e7ffb8044531a1c78cd191a96c11f719b439afce674f7e31d1d2e0dc57ecc03cea27ab4ad5ee6522606630fd59ac1745b9a1b787db14893561a4495806117'
+            '8682e3b11271ae09587298f4737b987a589db05e049c3f4699951d710c6263e6016ee2287b050143336b9b24d70d206a1d7c5396bf74a5ccf092af6e1491ff54'
+            'e3cb1b072754ae6443fa136fffa263761b5e4e3da5dca1e91b7c4d577daaf01afa0affde04f1355fc404fcd336852db4ce8dc57938833f864346a0b17c12d6d6')
 
 pkgver() {
   ln -sf BambuStudio "BambuStudio"

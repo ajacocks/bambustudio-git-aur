@@ -1,0 +1,11 @@
+--- BambuStudio/CMakeLists.txt.orig	2022-10-14 00:35:55.606666615 -0400
++++ BambuStudio/CMakeLists.txt	2022-10-14 00:32:34.699999956 -0400
+@@ -701,7 +701,7 @@
+             DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/icons/hicolor/${SIZE}x${SIZE}/apps RENAME BambuStudio.png
+         )
+     endforeach()
+-    install(DIRECTORY ${SLIC3R_RESOURCES_DIR}/udev/ DESTINATION lib/udev/rules.d)
++    # install(DIRECTORY ${SLIC3R_RESOURCES_DIR}/udev/ DESTINATION lib/udev/rules.d)
+ elseif (CMAKE_MACOSX_BUNDLE)
+     install(DIRECTORY "${SLIC3R_RESOURCES_DIR}/" DESTINATION "${CMAKE_INSTALL_PREFIX}/BambuStudio.app/Contents/resources")
+ else ()
